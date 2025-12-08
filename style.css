@@ -27,6 +27,7 @@ header .btnAdote {
   display: flex;
   justify-content: space-evenly;
   height: 50vh;
+  border: solid red;
 }
 .banner article .infoPet {
   width: 35%;
@@ -43,4 +44,24 @@ header .btnAdote {
 }
 .banner article .infoPet #fotoGrande {
   width: 60%;
+}
+.banner .galeria {
+  display: flex;
+  justify-content: space-evenly;
+}
+.banner .pet {
+  width: 20%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner .pet .descricao, .banner .pet .nome {
+  display: none;
+}
+.banner .imgPet {
+  width: 50%;
+  height: 20vh;
+  border-radius: 100%;
 }/*# sourceMappingURL=style.css.map */
